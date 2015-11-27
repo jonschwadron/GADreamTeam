@@ -1,3 +1,0 @@
-# General Assembly Dream Team
-
-A project portal where students, alumnus, and instructors can collaborate together in an organized environment.
