@@ -2,6 +2,11 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
+  get '/join' => 'welcome#join'
+  get '/login' => 'welcome#login'
+  get '/list' => 'das_list#index'
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

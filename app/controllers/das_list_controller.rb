@@ -1,0 +1,2 @@
+class DasListController < ApplicationController
+end
