@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :users
+  #root 'users#index'
   root 'welcome#index'
 
   get '/join' => 'welcome#join'
