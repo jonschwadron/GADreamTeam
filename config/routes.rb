@@ -4,7 +4,9 @@ Rails.application.routes.draw do
 
   get '/join' => 'welcome#join'
   get '/login' => 'welcome#login'
+  get '/logout' => 'welcome#index'
   get '/list' => 'das_list#index'
+  get '/createteam' => 'create_team#index'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

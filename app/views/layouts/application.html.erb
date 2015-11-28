@@ -33,9 +33,33 @@
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
-  
+
 </head>
 <body>
+  <div class="row">
+    <div class="twelve columns">
+      <nav>
+        <ul style="list-style: none;">
+          <li class="das_nav_title">
+            <h5>GA Dream Team</h5>
+          </li>
+
+          <li class="das_nav">
+            <%= button_to 'Log Out', '/logout', method: 'get' %>
+          </li>
+          <li class="das_nav">
+            <%= button_to 'Create Team', '/createteam', method: 'get' %>
+          </li>
+          <li class="das_nav">
+            <%= button_to 'Projects', '/list', method: 'get' %>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+
+
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -43,5 +67,9 @@
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Post Info -->
+  <div style='position:fixed;bottom:0;left:0; background:lightgray;width:100%;'>
+      GA Dream Team by Jon Schwadron and Andy Oh
+  </div>
 </body>
 </html>

@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
+.das_nav_title {
+  float: left;
+  padding-left: 25px;
+}
+
+.das_nav {
+  float: right;
+  padding-right: 25px;
+}
