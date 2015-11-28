@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get '/logout' => 'welcome#index'
   get '/list' => 'das_list#index'
   get '/createteam' => 'create_team#index'
+  get '/project-details' => 'project_details#index'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
