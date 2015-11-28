@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :teams
   resources :users
   #root 'users#index'
   root 'welcome#index'
@@ -8,7 +9,7 @@ Rails.application.routes.draw do
   get '/login' => 'welcome#login'
   get '/logout' => 'welcome#index'
   get '/list' => 'das_list#index'
-  get '/createteam' => 'create_team#index'
+  get '/createteam' => 'teams#index'
   get '/project-details' => 'project_details#index'
 
 
