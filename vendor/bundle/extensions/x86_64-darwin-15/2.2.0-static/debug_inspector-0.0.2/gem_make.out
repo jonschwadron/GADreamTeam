@@ -1,4 +1,4 @@
-/Users/jonschwadron/.rbenv/versions/2.2.3/bin/ruby -r ./siteconf20151127-25618-t0b64s.rb extconf.rb
+/Users/jonschwadron/.rbenv/versions/2.2.3/bin/ruby -r ./siteconf20151128-56058-1f5lkfg.rb extconf.rb
 creating Makefile
 
 make "DESTDIR=" clean
@@ -8,4 +8,4 @@ compiling debug_inspector.c
 linking shared-object debug_inspector.bundle
 
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20151127-25618-15g48f1
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20151128-56058-9hsupe

@@ -1,2 +1,0 @@
-class DasListController < ApplicationController
-end

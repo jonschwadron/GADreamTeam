@@ -1,4 +1,4 @@
-/Users/jonschwadron/.rbenv/versions/2.2.3/bin/ruby -r ./siteconf20151127-25618-1078gl6.rb extconf.rb
+/Users/jonschwadron/.rbenv/versions/2.2.3/bin/ruby -r ./siteconf20151128-56058-3fnu6v.rb extconf.rb
 
 make "DESTDIR=" clean
 make: *** No rule to make target `clean'.  Stop.
